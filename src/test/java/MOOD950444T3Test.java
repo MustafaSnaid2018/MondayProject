@@ -6,7 +6,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class MOOD950444T3 {
+public class MOOD950444T3Test {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -21,6 +21,7 @@ public class MOOD950444T3 {
 
   @Test
   public void testMOOD950444T3() throws Exception {
+    new MOOD950444T3();
     System.out.println("Hello World");
     driver.get("https://www.google.com/");
     driver.findElement(By.name("q")).clear();
