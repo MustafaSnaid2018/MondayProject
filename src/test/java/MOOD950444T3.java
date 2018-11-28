@@ -21,6 +21,7 @@ public class MOOD950444T3 {
 
   @Test
   public void testMOOD950444T3() throws Exception {
+    System.out.println("Hello World");
     driver.get("https://www.google.com/");
     driver.findElement(By.name("q")).clear();
     driver.findElement(By.name("q")).sendKeys("it");
